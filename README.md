@@ -1,6 +1,6 @@
 # MiMo 多媒体理解工具
 
-使用小米 MiMo V2.5 模型分析图片、音频和视频的图形化工具。
+使用小米 MiMo V2.5 模型分析图片、音频和视频的图形化工具。自用，所以暂时没有加入其他模型。
 
 ## 功能特点
 
@@ -126,7 +126,7 @@ python app.py
 A: 请在配置区域输入有效的API Key并点击保存。
 
 ### Q: 分析失败
-A: 检查网络连接和API Key是否正确，确保文件格式受支持。
+A: 检查网络连接和API Key是否正确，确保文件格式受支持，详见[官方文档](https://mimo.mi.com/docs/zh-CN/quick-start/usage-guide/multimodal-understanding)。
 
 ### Q: 程序无法启动
 A: 确保已安装所有依赖：`pip install -r requirements.txt`
